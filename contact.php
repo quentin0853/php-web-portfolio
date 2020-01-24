@@ -3,14 +3,11 @@
 <head>
     <meta charset="utf8">
     <title>Morgan Dawkins - Freelance Photograph - Contact</title>
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap" rel="stylesheet">
+    <?php include 'includes/head.php';?>
 </head>
 <body id="contact">
     <header>
-        <a href="index.html">
-            <img src="css/logo.png" alt="Morgan Dawkins - Freelance Photograph">
-        </a>
+    <?php include 'includes/header.php';?>
     </header>
     <main>
         <div id="hero">
@@ -63,19 +60,7 @@
         </div>
     </main>
     <footer>
-        <div class="container">
-            <ul>
-                <li>
-                    <a href="index.html" title="Photograph">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html" title="My shots">Gallery</a>
-                </li>
-                <li>
-                    <a href="contact.html" title="Contact form">Contact</a>
-                </li>
-            </ul>
-        </div>
+    <?php include 'includes/footer.php'?>
     </footer>
 </body>
 </html>
