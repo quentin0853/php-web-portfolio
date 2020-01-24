@@ -44,14 +44,14 @@ if (false === $picture){
                     echo 'detail.php?id='.($picture['id']-1);
                 }
                 ?>
-                class=<?php
+                class="<?php
                 if($picture['id']==1){
                     echo "btn disabled";
                 }
                 else{
                     echo "btn";
                 }
-                ?> >
+                ?>" >
                     Previous shot
                 </a>
                 <a href=<?php 
@@ -62,13 +62,13 @@ if (false === $picture){
                     echo 'detail.php?id='.($picture['id']+1);
                 }
                 ?> 
-                class= <?php
+                class= "<?php
                 if($picture['id']==16){
                     echo "btn disabled";
                 }
                 else{
                     echo "btn";
-                }?>>
+                }?>">
                     Next shot
                 </a>
             </p>
